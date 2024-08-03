@@ -28,7 +28,7 @@ In this guide, I'll walk you through how I set up a home lab to run Active Direc
 
 ***
 
-**Stage 2: Installing Windows Server on the VM**
+## **Stage 2: Installing Windows Server on the VM**
 
 * **Download Windows Server ISO:** I downloaded the Windows Server ISO file from the official Microsoft website.
 * **Install Windows Server:** I started the VM and mounted the Windows Server ISO file. I followed the installation wizard to install the operating system on the VM.
