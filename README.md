@@ -33,3 +33,41 @@ In this guide, I'll walk you through how I set up a home lab to run Active Direc
 * **Download Windows Server ISO:** I downloaded the Windows Server ISO file from the official Microsoft website.
 * **Install Windows Server:** I started the VM and mounted the Windows Server ISO file. I followed the installation wizard to install the operating system on the VM.
 * **Configure Windows Server:** After installation, I configured the server settings, such as setting a strong password for the administrator account and adjusting network settings to ensure the VM could connect to the internet.
+* **Add Guest Additions:** I added guest additions for better scrolling and use of the VM &#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-01 100014 (1).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Installing and Configuring Active Directory Domain Services (AD DS)
+
+* **Install AD DS Role:** On the Windows Server VM, I opened the Server Manager and added the Active Directory Domain Services role.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-01 101836 (1).png" alt=""><figcaption></figcaption></figure>
+
+* **Promote Server to Domain Controller:** I used the AD DS Configuration Wizard to promote the server to a domain controller. I specified a new forest and domain name and followed the prompts to complete the configuration.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-01 101621.png" alt=""><figcaption></figcaption></figure>
+
+* **Verify Installation:** After the server rebooted, I verified that the domain controller was functioning correctly by checking the AD DS and DNS server roles.
+
+***
+
+## Finalization: Adding Users to Active Directory with PowerShell
+
+* **Open PowerShell:** I opened PowerShell as an administrator on the domain controller.
+* **Create User Accounts:** I executed PowerShell scripts to create user accounts in Active Directory. The scripts included commands to define user properties.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-01 113523.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Results
+
+By following these steps, I successfully set up a home lab environment running Active Directory on a Windows Server VM in Oracle VirtualBox. I was able to install and configure AD DS, promote the server to a domain controller, and use PowerShell scripts to manage user accounts efficiently.
+
+***
+
+## Takeaways
+
+Setting up a home lab for Active Directory using Oracle VirtualBox gave me valuable hands-on experience in managing an AD environment. I learned how to install and configure a Windows Server, set up Active Directory Domain Services, and automate user management with PowerShell. This knowledge will be useful for understanding enterprise-level network management and improving my Cybersecurity/IT administration skills.
