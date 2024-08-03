@@ -10,11 +10,11 @@ _Technologies used: Oracle VirtualBox, PowerShell, VMWare, Windows_
 
 _Download Links:_
 
-_Oracle VirtualBox:_ [_https://www.virtualbox.org/wiki/Downl..._](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqbmo4LVBERTZkczVkSWJnQVdlR3JFOXFiMlhqQXxBQ3Jtc0trM3QtNGNQQXpRWWN1WWhudW5vODdlVmVwd29qM210RHlLS3h6YXA2MVQ4TFhqbF9Ja095YzhkaWhsaDBPUmlMSHd5aE94Y0lzUHhrZEhfb29KalM5YmljRzN6MXN3M3U5bFpBSUhiRVdKejJyUS1GTQ\&q=https%3A%2F%2Fwww.virtualbox.org%2Fwiki%2FDownloads\&v=MHsI8hJmggI)&#x20;
+_Oracle VirtualBox:_ [_https://www.virtualbox.org/wiki/Downloads_](https://www.virtualbox.org/wiki/Downloads)
 
-_Server 2019 ISO:_ [_https://www.microsoft.com/en-us/evalc..._](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqa3p3WjViRnJuTTQ2WUw0QXhmMGxTdzhlejM5QXxBQ3Jtc0tuVk1fQWw2ZDlLOXNBYjFlYTY3eW1ibEJFajJucnlrb2NHUDlSUFZBZzl1Z1ZmcnpfRE54SzQyTWtRS2NiNGdQMVNnbzVyX1dwNXpDRjcyTXNPSDMwc3VIZFh1Yy0tMUtFbGIzNVBoSHB0MGJSRDk3UQ\&q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fevalcenter%2Fdownload-windows-server-2019\&v=MHsI8hJmggI)&#x20;
+_Server 2019 ISO:_ [_https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019_](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
-_Windows 10 ISO:_ [_https://www.microsoft.com/en-us/softw..._](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqa3p6V3IyRF9fbHh3WXZ1NVUtU1hOVXgwcnlid3xBQ3Jtc0trV1JEQzhOajhIa2U4LS1fcEYtZ3NPSGFTYldjeFhXaHJ1elZfYWNVY1BUMXJMQldvbjgxNkdBS2p6aEI0Ujg4RjNqek0xRUd3aWMzSVZCb1g0a040Q2dabjdRWU5YdGZnRnVlNldvUy1reGxpMFktTQ\&q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fsoftware-download%2Fwindows10ISO\&v=MHsI8hJmggI)
+_Windows 10 ISO:_ [_https://www.microsoft.com/en-us/software-download/windows10_](https://www.microsoft.com/en-us/software-download/windows10)
 
 I set up a home lab to run Active Directory using Oracle VirtualBox. First, I created a Windows Server virtual machine (VM) to serve as my domain controller. After setting up the VM, I installed and configured Active Directory Domain Services (AD DS) and set up the domain. Once the domain was ready, I used PowerShell scripts to add users to my Active Directory efficiently, showcasing how automation can simplify user management tasks.
 
